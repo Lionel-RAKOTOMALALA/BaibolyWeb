@@ -45,7 +45,7 @@ export default function Download() {
         </div>
 
         <p className="mt-6 text-xs text-white/60">
-          Hahazoanao ny APK avy amin&apos;ny pejy build EAS — tsy mila Google Play.
+          Fisidinana mivantana (.apk) — tsy mila Google Play.
         </p>
       </div>
     </ParallaxSection>
