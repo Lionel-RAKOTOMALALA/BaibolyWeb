@@ -1,7 +1,6 @@
 import { Apple, Smartphone, ArrowRight } from "lucide-react";
 import ParallaxSection from "./ParallaxSection";
-
-const ANDROID_APK_URL = "/baiboly.apk";
+import { ANDROID_APK_URL } from "@/lib/links";
 
 export default function Download() {
   return (
@@ -31,7 +30,8 @@ export default function Download() {
         <div data-animate="download-buttons" className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href={ANDROID_APK_URL}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-7 py-4 text-sm font-semibold text-primary shadow-lg transition-transform hover:-translate-y-0.5 sm:w-auto"
           >
             <Smartphone size={18} />
@@ -45,7 +45,7 @@ export default function Download() {
         </div>
 
         <p className="mt-6 text-xs text-white/60">
-          Fisidinana mivantana (.apk) — tsy mila Google Play.
+          Hahazoanao ny APK avy amin&apos;ny pejy build EAS — tsy mila Google Play.
         </p>
       </div>
     </ParallaxSection>

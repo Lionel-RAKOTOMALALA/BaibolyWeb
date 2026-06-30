@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# large binaries (host separately, not via Vercel/Git — 92MB exceeds deploy limits)
+public/*.apk
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

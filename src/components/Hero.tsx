@@ -2,8 +2,7 @@ import Image from "next/image";
 import { Apple, Smartphone } from "lucide-react";
 import PhoneMockup from "./PhoneMockup";
 import ParallaxSection from "./ParallaxSection";
-
-const ANDROID_APK_URL = "/baiboly.apk";
+import { ANDROID_APK_URL } from "@/lib/links";
 
 export default function Hero() {
   return (
@@ -36,7 +35,8 @@ export default function Hero() {
           <div data-animate="hero-buttons" className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href={ANDROID_APK_URL}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition-transform hover:-translate-y-0.5 hover:bg-primary-dark"
             >
               <Smartphone size={18} />
