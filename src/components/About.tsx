@@ -54,7 +54,7 @@ export default function About() {
             </h2>
             <p className="mt-4 leading-relaxed text-slate-600">
               Ny loharano tany am-boalohany dia nampiasa sary paleo-hebreo
-              ho an&apos;ny anaran&apos;i YHWH sy ny Mesia, in-9 500 mahery.
+              ho an&apos;ny anaran&apos;i YHWH sy Yaohshoua, in-9 500 mahery.
               Ny app dia namerina io fomba io tamin&apos;ny fomba mahatoky,
               ka ny soratra rehetra dia voamarina teny isan-teny.
             </p>

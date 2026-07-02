@@ -28,8 +28,7 @@ export default function Hero() {
             className="mt-6 max-w-md text-lg leading-relaxed text-slate-600"
           >
             BAIBOLY MANÀNA FINOANA dia mampiditra anao amin&apos;ny Tanakh sy
-            ny Brit Hadashah feno — 75 boky, miaraka amin&apos;ny anaran&apos;Andriamanitra
-            sy ny Mesia voasoratra araka ny endrika paleo-hebreo tany am-boalohany.
+            ny Brit Hadashah feno — 75 boky, miaraka amin&apos;ny anaran&apos;i Avo Indrindra sy Mpamonjy voasoratra araka ny endrika paleo-hebreo tany am-boalohany.
           </p>
 
           <div data-animate="hero-buttons" className="mt-8 flex flex-col gap-3 sm:flex-row">
