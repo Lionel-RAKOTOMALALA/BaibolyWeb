@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Apple, Smartphone, ArrowRight } from "lucide-react";
 import ParallaxSection from "./ParallaxSection";
 import { ANDROID_APK_URL } from "@/lib/links";
@@ -46,6 +47,11 @@ export default function Download() {
 
         <p className="mt-6 text-xs text-white/60">
           Fisidinana mivantana (.apk) — tsy mila Google Play.
+        </p>
+        <p className="mt-2 text-xs">
+          <Link href="/installation" className="text-white/70 underline underline-offset-2 hover:text-white">
+            Voasakana ny fametrahana? Kitiho eto
+          </Link>
         </p>
       </div>
     </ParallaxSection>
